@@ -59,3 +59,5 @@ print(f"\ntotal listings found: {len(listings)}")
 Al ejecutar el script genera el siguiente resultado:
 
 ![Screenshot de ejecución de script](https://www.jrg9.com/blog/assets/images/img-airbnb-1-2.png)
+
+El siguiente paso sobre este html es obtener los links de las demás páginas del "paginado", hacer el request de esas páginas (máximo 10 páginas) y repetir el scraping sobre esos request; este paso también es nuevo, porque parece que los links de páginas en la páginación vienen también en el json del script, ya veremos...
