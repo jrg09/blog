@@ -1,6 +1,6 @@
 ---
 permalink: /
 layout: home
-title: Welcome
+title: Inicio
 list_title: My blog posts
 ---
