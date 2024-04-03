@@ -1,4 +1,6 @@
-# Scraping de la página inicial de un área geográfica en Airbnb
+En este post explico los primeros pasos para hacer scraping de la página inicial de un área geográfica en Airbnb y extraer los listings que se muestren en esa página.
+
+## Scraping de la página inicial de un área geográfica en Airbnb
 
 Manualmente tomé las 4 siguientes urls de base, ya que sé que son las distintas áreas de Mazatlán, así que buscaré en las 10 primeras páginas de estas páginas base.
 * https://www.airbnb.mx/s/Mazatlan--Sinaloa--Mexico/
