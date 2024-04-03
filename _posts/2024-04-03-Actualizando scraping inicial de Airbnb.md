@@ -58,4 +58,4 @@ print(f"\ntotal listings found: {len(listings)}")
 
 Al ejecutar el script genera el siguiente resultado:
 
-![Screenshot de ejecución de script]("https://www.jrg9.com/blog/assets/images/img-airbnb-1-2.png")
+![Screenshot de ejecución de script](https://www.jrg9.com/blog/assets/images/img-airbnb-1-2.png)
