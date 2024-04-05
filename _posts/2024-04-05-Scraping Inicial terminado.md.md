@@ -10,5 +10,15 @@
 <p>Y cada listing se obtiene en el siguiente nodo:</p>
 <pre><code>results = node["root &gt; core-guest-spa"][1][1]["niobeMinimalClientData"][1][1]["data"]["presentation"]["staysSearch"]["results"]["searchResults"]
 </code></pre>
-<p><img src="https://imgur.com/shLGFvh" alt="json de un listing"></p>
+<p>Así se ve el listing procesado a json:<br>
+<a href="https://postimg.cc/HVW9C36y"><img src="https://i.postimg.cc/WbgWgHrX/temp-Imager-Pi-Uyd.avif" alt="temp-Imager-Pi-Uyd.avif"></a></p>
+<p>Después de hacer el scraping completo de las 4 páginas base, se obtuvo un total de 1,692 registros, con los que haré Exploratory Data Analisys (EDA) en los siguientes posts, en los cuales inicialmente tendré que realizar las siguientes actividades:</p>
+<ul>
+<li>Ver que los acentos se vean correctamente cuando los cargue en un DataFrame</li>
+<li>estandarizar el campo roomTypeCategory</li>
+<li>separar los valores del campo rating (calificación y evaluaciones)</li>
+<li>análizar el campo de camas</li>
+<li>cambiar el valor de price a número</li>
+<li>analizar valores repetidos</li>
+</ul>
 
